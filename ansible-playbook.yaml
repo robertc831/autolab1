@@ -16,7 +16,7 @@
       user: "{{ bigip_user }}"
       password: "{{ bigip_password }}"
       method: POST
-      body: "{{ lookup('file','as3.json') }}"
+      body: "{{ lookup('file','test.json') }}"
       force_basic_auth: yes
       status_code: 200
       body_format: json
